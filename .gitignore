@@ -1,0 +1,14 @@
+credentials.env
+.env
+minimax.json
+recordings/
+transcripts/
+logs/
+state.json
+cloudflared
+__pycache__/
+*.mp3
+*.pid
+*.pyc
+.venv/
+venv/
