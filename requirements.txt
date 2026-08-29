@@ -1,0 +1,2 @@
+aiohttp>=3.9
+twilio>=9.0

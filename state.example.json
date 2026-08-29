@@ -1,0 +1,10 @@
+{
+  "local_port": 8765,
+  "local_ws": "http://127.0.0.1:8765/ws",
+  "public_https": "https://example.trycloudflare.com",
+  "public_wss": "wss://example.trycloudflare.com/ws",
+  "updated_at": "2026-01-01T00:00:00Z",
+  "restart": "./restart.sh",
+  "server_cmd": "./launch.sh",
+  "tunnel_cmd": "./watch_tunnel.sh"
+}
