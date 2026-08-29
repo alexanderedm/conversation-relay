@@ -9,7 +9,7 @@ from place_call import dest_numbers, public_https, public_wss, twiml_for
 wss = public_wss()
 to_num, from_num = dest_numbers()
 print("to=" + (to_num or "(unset)"))
-print("from=" + (to_num or "(unset)"))
+print("from=" + (from_num or "(unset)"))
 print("public_wss=" + wss)
 print("public_https=" + public_https())
 print("twiml=" + twiml_for(wss))
